@@ -39,6 +39,10 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## `Cypress`
+
+A custom command was built to get selectors by a new property called 'data-cy' this helps the test code be more reliable at the moment of grabbing elements.
+
 ### `npm run cy:chrome` `npm run cy:firefox` `npm run cy:electron`
 
 You can run the tests in this 3 different browsers.
