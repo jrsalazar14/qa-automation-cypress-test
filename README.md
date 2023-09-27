@@ -43,6 +43,8 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 A custom command was built to get selectors by a new property called 'data-cy' this helps the test code be more reliable at the moment of grabbing elements.
 
+We have added the baseUrl in `cypress.config.js` so we don't have to add it to every single test, instead we do a more simple `cy.visit("/").`
+
 ### `npm run cy:chrome` `npm run cy:firefox` `npm run cy:electron`
 
 You can run the tests in this 3 different browsers.
